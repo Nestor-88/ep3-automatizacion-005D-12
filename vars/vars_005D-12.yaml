@@ -1,0 +1,18 @@
+#vars/vars_005D-12.yaml
+codigo: "005D-12"
+nombre: "Nestor Sebastian Navarro Vargas"
+cliente:
+  empresa: "Telecom Andinas Spa"
+  hostname: "RTR-TELEAND"
+router:
+  ip: "192.168.56.102"
+  usuario: "cisco"
+  password: "cisco123!
+  loopback_id: 10 
+  loopback_ip: "10.5.12.1"
+  loopback_mask: "255.255.255.0"
+  loopback_prefix: "24"
+  description_wan "Enlace-WAN-Copiapo"
+  banner: "ACCESO RESTRINGIDO - TELEAND"
+  ntp_server: "1.1.1.1"
+
