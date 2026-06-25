@@ -1,0 +1,12 @@
+=== VALIDACION NETCONF ===
+Script : validacion_netconf.py
+Fecha  : 2026-06-25 04:12:04.792223
+Host   : labvm
+==========================
+[OK] Hostname: obtenido='RTR-TELEAND' esperado='RTR-TELEAND'
+[OK] Loopback IP: obtenido='10.5.12.1' esperado='10.5.12.1'
+[OK] Loopback Mask: obtenido='255.255.255.0' esperado='255.255.255.0'
+[OK] Desc WAN: obtenido='Enlace-WAN-Copiapo' esperado='Enlace-WAN-Copiapo'
+[OK] NTP Server: obtenido='1.1.1.1' esperado='1.1.1.1'
+
+Resultado: CONFORME (5/5)
