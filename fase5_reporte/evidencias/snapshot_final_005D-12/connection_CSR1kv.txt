@@ -1,0 +1,43 @@
+[2026-06-25 04:22:56,398] +++ CSR1kv logfile evidencias/snapshot_final_005D-12/connection_CSR1kv.txt +++
+[2026-06-25 04:22:56,398] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-25 04:22:56,640] +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.101 22, id: 140711404638896 +++
+[2026-06-25 04:22:56,640] connection to CSR1kv
+
+ ACCESO RESTRINGIDO - TELEAND 
+% 22 is not an open connectionConnection to 192.168.56.101 closed by remote host.
+[2026-06-25 04:23:15,400] +++ CSR1kv logfile evidencias/snapshot_final_005D-12/connection_CSR1kv.txt +++
+[2026-06-25 04:23:15,400] +++ Unicon plugin iosxe +++
+
+[2026-06-25 04:23:15,618] +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.101 22, id: 139945029431984 +++
+[2026-06-25 04:23:15,619] connection to CSR1kv
+Password: 
+ ACCESO RESTRINGIDO - TELEAND 
+
+% 22 is not an open connection[2026-06-25 04:24:26,300] +++ CSR1kv logfile evidencias/snapshot_final_005D-12/connection_CSR1kv.txt +++
+[2026-06-25 04:24:26,301] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-25 04:24:26,505] +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.101 22, id: 139732551254704 +++
+[2026-06-25 04:24:26,505] connection to CSR1kv
+
+ ACCESO RESTRINGIDO - TELEAND 
+
+% 22 is not an open connection[2026-06-25 04:31:23,094] +++ CSR1kv logfile evidencias/snapshot_final_005D-12/connection_CSR1kv.txt +++
+[2026-06-25 04:31:23,094] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-25 04:31:23,344] +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.101 22, id: 139637884838576 +++
+[2026-06-25 04:31:23,345] connection to CSR1kv
+
+ ACCESO RESTRINGIDO - TELEAND 
+
+% 22 is not an open connectionConnection to 192.168.56.101 closed by remote host.
+[2026-06-25 04:33:20,243] +++ CSR1kv logfile evidencias/snapshot_final_005D-12/connection_CSR1kv.txt +++
+[2026-06-25 04:33:20,244] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-25 04:33:20,463] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=diffie-hellman-group14-sha1 -o StrictHostKeyChecking=no, id: 140231124386480 +++
+[2026-06-25 04:33:20,463] connection to CSR1kv
+
+ ACCESO RESTRINGIDO - TELEAND 
+
+
+RTR-TELEAND#

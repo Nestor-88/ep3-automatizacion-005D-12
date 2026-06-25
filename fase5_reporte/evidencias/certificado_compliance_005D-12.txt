@@ -1,0 +1,16 @@
+
+==========================================
+  CERTIFICADO DE COMPLIANCE - EP3
+==========================================
+Alumno  : Nestor Sebastian Navarro Vargas
+Codigo  : 005D-12
+Cliente : Telecom Andinas SpA
+Hostname: RTR-TELEAND
+Fecha   : 2026-06-25 04:42:50
+------------------------------------------
+NETCONF  : CONFORME
+RESTCONF : CONFORME
+DIFF     : DETECTADO
+------------------------------------------
+RESULTADO FINAL: CONFORME
+==========================================
