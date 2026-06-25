@@ -1,0 +1,62 @@
+# yaml
+---
+- name: Aprovisionamiento router Telecom Andinas
+  hosts: routers
+  gather_facts: no
+  vars_files:
+    - ../vars/vars_005D-12.yaml
+
+  tasks:
+    - name: Respaldar configuracion actual
+      ios_command:
+        commands: show running-config
+      register: backup_output
+
+    - name: Guardar respaldo
+      copy:
+        content: "{{ backup_output.stdout[0] }}"
+        dest: "respaldo/backup_005D-12.cfg"
+      delegate_to: localhost
+
+    - name: Habilitar NETCONF
+      ios_config:
+        lines:
+          - netconf-yang
+
+    - name: Habilitar RESTCONF
+      ios_config:
+        lines:
+          - restconf
+
+    - name: Habilitar HTTP seguro
+      ios_config:
+        lines:
+          - ip http secure-server
+
+    - name: Configurar hostname
+      ios_config:
+        lines:
+          - "hostname {{ cliente.hostname }}"
+
+    - name: Configurar banner
+      ios_config:
+        lines:
+          - "banner motd ^ {{ router.banner }} ^"
+
+    - name: Configurar NTP
+      ios_config:
+        lines:
+          - "ntp server {{ router.ntp_server }}"
+
+    - name: Configurar descripcion WAN GigabitEthernet1
+      ios_config:
+        parents: interface GigabitEthernet1
+        lines:
+          - "description {{ router.descripcion_wan }}"
+
+    - name: Crear Loopback con IP de gestion
+      ios_config:
+        parents: "interface Loopback{{ router.loopback_id }}"
+        lines:
+          - "ip address {{ router.loopback_ip }} {{ router.loopback_mask }}"
+          - no shutdown
