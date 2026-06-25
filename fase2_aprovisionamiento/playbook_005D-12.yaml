@@ -1,4 +1,3 @@
-# yaml
 ---
 - name: Aprovisionamiento router Telecom Andinas
   hosts: routers
@@ -41,7 +40,8 @@
     - name: Configurar banner
       ios_config:
         lines:
-          - "banner motd ^ {{ router.banner }} ^"
+          - "banner motd # {{ router.banner }} #"
+        match: none
 
     - name: Configurar NTP
       ios_config:
@@ -59,4 +59,3 @@
         parents: "interface Loopback{{ router.loopback_id }}"
         lines:
           - "ip address {{ router.loopback_ip }} {{ router.loopback_mask }}"
-          - no shutdown
