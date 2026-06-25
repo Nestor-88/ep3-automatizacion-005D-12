@@ -1,0 +1,23 @@
+[2026-06-25 02:37:44,339] +++ CSR1kv logfile evidencias/baseline1_005D-12/connection_CSR1kv.txt +++
+[2026-06-25 02:37:44,339] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-25 02:37:44,520] +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.101 22, id: 139970722943664 +++
+[2026-06-25 02:37:44,520] connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***   Emerging Technologies Workshop:     ***
+***    Model Driven Programmability       ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+% 22 is not an open connectionConnection to 192.168.56.101 closed by remote host.

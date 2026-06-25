@@ -1,0 +1,11 @@
+=== BASELINE SNAPSHOT ===
+Alumno : 005D-12
+Fecha : Thu 25 Jun 2026 02:30:29 AM UTC
+Host  : labvm
+=========================
+
+Learning '['interface', 'platform', 'routing']' on devices '['CSR1kv']'
+[1m[31m
+failed to connect to CSR1kv
+Failed while bringing device to "any" state[0m[39m
+
